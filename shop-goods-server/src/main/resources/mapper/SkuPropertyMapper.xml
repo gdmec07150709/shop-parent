@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.shop.mapper.SkuPropertyMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.shop.domain.SkuProperty">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+    <result column="type" property="type" />
+    <result column="sort" property="sort" />
+    <result column="catalog_id" property="catalogId" />
+   </resultMap>
+  <delete id="deleteByPrimaryKey">
+    delete from sku_property
+    where id = #{id}
+  </delete>
+  <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into sku_property (catalog_id, name, type, sort)
+    values (#{catalogId}, #{name}, #{type}, #{sort})
+  </insert>
+  <update id="updateByPrimaryKey">
+    update sku_property
+    set catalog_id = #{catalogId},
+      name = #{name},
+      type = #{type},
+      sort = #{sort}
+    where id = #{id}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    select id, catalog_id, name, type, sort
+    from sku_property
+    where id = #{id}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, catalog_id, name, type, sort
+    from sku_property
+  </select>
+  <select id="getCatalogProperty" resultMap="BaseResultMap">
+    select id, catalog_id, name, type, sort
+    from sku_property WHERE catalog_id = #{catalogId}
+  </select>
+  <select id="getById" resultMap="BaseResultMap">
+     select id, catalog_id, name, type, sort
+    from sku_property WHERE id = #{skuPropertyId}
+  </select>
+</mapper>

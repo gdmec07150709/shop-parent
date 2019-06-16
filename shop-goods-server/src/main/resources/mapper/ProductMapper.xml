@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.shop.mapper.ProductMapper">
+    <resultMap id="BaseResultMap" type="cn.wolfcode.shop.domain.Product">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="market_price" property="marketPrice"/>
+        <result column="base_price" property="basePrice"/>
+        <result column="created_date" property="createdDate"/>
+        <result column="last_modified_date" property="lastModifiedDate"/>
+        <result column="image" property="image"/>
+        <result column="keyword" property="keyword"/>
+        <result column="label" property="label"/>
+        <association property="brand" javaType="cn.wolfcode.shop.domain.Brand">
+            <id property="id" column="bid"/>
+            <result property="name" column="bname"/>
+        </association>
+        <association property="catalog" javaType="cn.wolfcode.shop.domain.Catalog">
+            <id property="id" column="cid"/>
+            <result property="name" column="cname"/>
+        </association>
+    </resultMap>
+    <delete id="deleteByPrimaryKey">
+    delete from product
+    where id = #{id}
+  </delete>
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+    insert into product (name, code, catalog_id, brand_id, market_price, base_price, 
+      created_date, last_modified_date, image, keyword, label)
+    values (#{name}, #{code}, #{catalog.id}, #{brand.id}, #{marketPrice}, #{basePrice},
+      #{createdDate}, #{lastModifiedDate}, #{image}, #{keyword}, #{label})
+  </insert>
+    <update id="updateByPrimaryKey">
+    update product
+    set name = #{name},
+      code = #{code},
+      catalog_id = #{catalog.id},
+      brand_id = #{brand.id},
+      market_price = #{marketPrice},
+      base_price = #{basePrice},
+      created_date = #{createdDate},
+      last_modified_date = #{lastModifiedDate},
+      image = #{image},
+      keyword = #{keyword},
+      label = #{label}
+    where id = #{id}
+  </update>
+    <select id="getProductCount" resultType="int">
+      SELECT count(id)
+      from product where catalog_id = #{id}
+    </select>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        <include refid="BaseSelect"/>
+        where p.id = #{id,jdbcType=BIGINT}
+    </select>
+    <select id="queryForCount" resultType="int">
+        select count(p.id) from product p
+        <include refid="BaseWhere"></include>
+    </select>
+
+    <select id="queryForList" resultMap="BaseResultMap">
+        <include refid="BaseSelect"/>
+        <include refid="BaseWhere"></include>
+        order by p.id desc
+        limit #{start},#{pageSize}
+    </select>
+
+    <sql id="BaseWhere">
+        <if test="keyword != null">
+            <where>
+                p.name like #{keyword} or p.code like #{keyword}
+            </where>
+        </if>
+    </sql>
+    <sql id="BaseSelect">
+        select p.id,p.name,p.code,p.market_price,p.base_price,
+        b.id as bid,b.name as bname,
+        c.id as cid,c.name as cname
+        from product p
+        left join brand b on p.brand_id = b.id
+        left join catalog c on p.catalog_id = c.id
+    </sql>
+</mapper>

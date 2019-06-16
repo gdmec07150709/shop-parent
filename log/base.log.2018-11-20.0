@@ -1,0 +1,11 @@
+2018-11-20 17:12:34,940 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 11420 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-20 17:12:34,962 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-20 17:12:34,962 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-20 17:12:44,485 INFO (StartupInfoLogger.java:57)- Started MemberApp in 10.56 seconds (JVM running for 11.023)
+2018-11-20 17:12:57,534 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 12964 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-20 17:12:57,537 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-20 17:12:57,538 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-20 17:13:11,108 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 14.188 seconds (JVM running for 14.636)
+2018-11-20 17:13:18,457 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_name, password, state from user_login where user_name=? AND password = ? 
+2018-11-20 17:13:18,481 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: cym(String), 96E79218965EB72C92A549DD5A330112(String)
+2018-11-20 17:13:18,536 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1

@@ -1,0 +1,149 @@
+2018-11-22 08:55:36,648 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 4172 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-22 08:55:36,687 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-22 08:55:36,689 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-22 08:55:37,798 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 5220 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-22 08:55:37,803 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-22 08:55:37,804 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-22 08:55:43,808 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 5256 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-22 08:55:43,817 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-22 08:55:43,818 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-22 08:56:07,070 INFO (StartupInfoLogger.java:57)- Started MemberApp in 30.233 seconds (JVM running for 30.804)
+2018-11-22 08:56:08,397 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 33.772 seconds (JVM running for 37.33)
+2018-11-22 08:56:11,990 INFO (StartupInfoLogger.java:57)- Started OrderApp in 29.429 seconds (JVM running for 30.146)
+2018-11-22 08:57:44,167 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_name, password, state from user_login where user_name=? AND password = ? 
+2018-11-22 08:57:44,185 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: cym(String), 96E79218965EB72C92A549DD5A330112(String)
+2018-11-22 08:57:44,253 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 08:57:58,606 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_id, consignee, phone, country, province, city, district, address, zipcode, status from user_address where id = ? 
+2018-11-22 08:57:58,607 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-22 08:57:58,647 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 08:57:58,675 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_info (order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2018-11-22 08:57:58,696 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065409016609374208(String), 2(Long), 0(BigDecimal), 0(Byte), 0(Byte), 0(Byte), 2018-11-22 08:57:58.661(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 2(Byte)
+2018-11-22 08:57:58,805 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 08:57:59,114 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-22 08:57:59,142 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 98(Long)
+2018-11-22 08:57:59,169 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-22 09:27:55,813 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 9780 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-22 09:27:55,817 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-22 09:27:55,817 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-22 09:28:02,137 INFO (StartupInfoLogger.java:57)- Started OrderApp in 6.895 seconds (JVM running for 7.365)
+2018-11-22 09:28:05,166 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_id, consignee, phone, country, province, city, district, address, zipcode, status from user_address where id = ? 
+2018-11-22 09:28:05,167 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-22 09:28:05,169 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:28:05,196 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_info (order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2018-11-22 09:28:05,218 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065416593854431232(String), 2(Long), 0(BigDecimal), 0(Byte), 0(Byte), 0(Byte), 2018-11-22 09:28:05.18(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 2(Byte)
+2018-11-22 09:28:05,220 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:28:05,227 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-22 09:28:05,228 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 98(Long)
+2018-11-22 09:28:05,229 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-22 09:30:08,644 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 9088 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-22 09:30:08,661 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-22 09:30:08,665 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-22 09:30:41,992 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 3172 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-22 09:30:41,997 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-22 09:30:41,998 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-22 09:30:50,736 INFO (StartupInfoLogger.java:57)- Started OrderApp in 9.488 seconds (JVM running for 10.416)
+2018-11-22 09:30:58,463 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_id, consignee, phone, country, province, city, district, address, zipcode, status from user_address where id = ? 
+2018-11-22 09:30:58,463 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-22 09:30:58,464 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:30:58,491 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_info (order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2018-11-22 09:30:58,512 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065417320727314432(String), 2(Long), 0(BigDecimal), 0(Byte), 0(Byte), 0(Byte), 2018-11-22 09:30:58.475(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 2(Byte)
+2018-11-22 09:30:58,513 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:30:58,518 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-22 09:30:58,519 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 98(Long)
+2018-11-22 09:30:58,520 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-22 09:33:25,772 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_id, consignee, phone, country, province, city, district, address, zipcode, status from user_address where id = ? 
+2018-11-22 09:33:25,773 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-22 09:33:25,775 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:25,779 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_info (order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2018-11-22 09:33:25,783 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065417938778980352(String), 2(Long), 0(BigDecimal), 0(Byte), 0(Byte), 0(Byte), 2018-11-22 09:33:25.779(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 2(Byte)
+2018-11-22 09:33:25,787 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:25,790 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-22 09:33:25,791 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 303(Long)
+2018-11-22 09:33:25,796 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from product_sku_property where product_sku_id = ? 
+2018-11-22 09:33:25,796 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 303(Long)
+2018-11-22 09:33:25,798 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select id, catalog_id, name, type, sort from sku_property where id = ? 
+2018-11-22 09:33:25,798 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 4(Long)
+2018-11-22 09:33:25,800 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 1
+2018-11-22 09:33:25,800 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 1
+2018-11-22 09:33:25,801 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:25,814 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select p.id,p.name,p.code,p.market_price,p.base_price, b.id as bid,b.name as bname, c.id as cid,c.name as cname from product p left join brand b on p.brand_id = b.id left join catalog c on p.catalog_id = c.id where p.id = ? 
+2018-11-22 09:33:25,814 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-22 09:33:25,817 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:25,822 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product (order_id, sku_id, product_name, product_number, product_price, total_price, product_img) values (?, ?, ?, ?, ?, ?, ?) 
+2018-11-22 09:33:25,823 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 22(Long), 303(Long), 4444(String), 2(Integer), 44444.00(BigDecimal), 88888.00(BigDecimal), null
+2018-11-22 09:33:25,825 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:25,827 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product_property (order_product_id, name, value ) values (?, ?, ? ) 
+2018-11-22 09:33:25,828 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 22(Long), 颜色(String), 白(String)
+2018-11-22 09:33:25,829 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:25,873 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-22 09:33:25,874 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 304(Long)
+2018-11-22 09:33:25,875 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from product_sku_property where product_sku_id = ? 
+2018-11-22 09:33:25,876 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 304(Long)
+2018-11-22 09:33:25,877 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select id, catalog_id, name, type, sort from sku_property where id = ? 
+2018-11-22 09:33:25,877 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 4(Long)
+2018-11-22 09:33:25,878 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 1
+2018-11-22 09:33:25,879 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 1
+2018-11-22 09:33:25,880 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:25,886 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select p.id,p.name,p.code,p.market_price,p.base_price, b.id as bid,b.name as bname, c.id as cid,c.name as cname from product p left join brand b on p.brand_id = b.id left join catalog c on p.catalog_id = c.id where p.id = ? 
+2018-11-22 09:33:25,891 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-22 09:33:25,894 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:25,895 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product (order_id, sku_id, product_name, product_number, product_price, total_price, product_img) values (?, ?, ?, ?, ?, ?, ?) 
+2018-11-22 09:33:25,896 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 22(Long), 304(Long), 4444(String), 1(Integer), 4444.00(BigDecimal), 4444.00(BigDecimal), null
+2018-11-22 09:33:25,897 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:25,898 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product_property (order_product_id, name, value ) values (?, ?, ? ) 
+2018-11-22 09:33:25,900 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 22(Long), 颜色(String), 黑(String)
+2018-11-22 09:33:25,901 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:25,901 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: update order_info set order_sn = ?, user_id = ?, order_amount = ?, order_status = ?, flow_status = ?, pay_type = ?, pay_status = ?, order_time = ?, phone = ?, consignee = ?, country = ?, province = ?, city = ?, district = ?, address = ?, zipcode = ? where id = ? 
+2018-11-22 09:33:25,902 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065417938778980352(String), 2(Long), 93332.00(BigDecimal), 0(Byte), 0(Byte), 2(Byte), 0(Byte), 2018-11-22 09:33:25.779(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 22(Long)
+2018-11-22 09:33:25,903 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:25,904 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into invoice (invoice_type, invoice_head, user_id, order_id, invoice_content, invoice_phone, invoice_email) values (?, ?, ?, ?, ?, ?, ?) 
+2018-11-22 09:33:25,905 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 2(Byte), 1(Byte), 2(Long), 22(Long), 1(Byte), 13022004622(String), (String)
+2018-11-22 09:33:25,906 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:42,107 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_id, consignee, phone, country, province, city, district, address, zipcode, status from user_address where id = ? 
+2018-11-22 09:33:42,108 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-22 09:33:42,110 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:42,112 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_info (order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2018-11-22 09:33:42,115 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065418007297130496(String), 2(Long), 0(BigDecimal), 0(Byte), 0(Byte), 0(Byte), 2018-11-22 09:33:42.112(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 2(Byte)
+2018-11-22 09:33:42,116 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:42,118 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-22 09:33:42,119 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 303(Long)
+2018-11-22 09:33:42,120 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from product_sku_property where product_sku_id = ? 
+2018-11-22 09:33:42,121 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 303(Long)
+2018-11-22 09:33:42,122 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select id, catalog_id, name, type, sort from sku_property where id = ? 
+2018-11-22 09:33:42,123 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 4(Long)
+2018-11-22 09:33:42,124 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 1
+2018-11-22 09:33:42,125 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 1
+2018-11-22 09:33:42,126 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:49,993 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select p.id,p.name,p.code,p.market_price,p.base_price, b.id as bid,b.name as bname, c.id as cid,c.name as cname from product p left join brand b on p.brand_id = b.id left join catalog c on p.catalog_id = c.id where p.id = ? 
+2018-11-22 09:33:49,993 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-22 09:33:49,995 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:49,998 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product (order_id, sku_id, product_name, product_number, product_price, total_price, product_img) values (?, ?, ?, ?, ?, ?, ?) 
+2018-11-22 09:33:50,000 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 23(Long), 303(Long), 4444(String), 2(Integer), 44444.00(BigDecimal), 88888.00(BigDecimal), null
+2018-11-22 09:33:50,000 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:50,001 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product_property (order_product_id, name, value ) values (?, ?, ? ) 
+2018-11-22 09:33:50,002 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 23(Long), 颜色(String), 白(String)
+2018-11-22 09:33:50,003 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:50,006 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-22 09:33:50,007 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 304(Long)
+2018-11-22 09:33:50,009 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from product_sku_property where product_sku_id = ? 
+2018-11-22 09:33:50,009 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 304(Long)
+2018-11-22 09:33:50,010 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select id, catalog_id, name, type, sort from sku_property where id = ? 
+2018-11-22 09:33:50,011 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 4(Long)
+2018-11-22 09:33:50,012 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 1
+2018-11-22 09:33:50,013 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 1
+2018-11-22 09:33:50,014 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:52,856 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select p.id,p.name,p.code,p.market_price,p.base_price, b.id as bid,b.name as bname, c.id as cid,c.name as cname from product p left join brand b on p.brand_id = b.id left join catalog c on p.catalog_id = c.id where p.id = ? 
+2018-11-22 09:33:52,857 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-22 09:33:52,859 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-22 09:33:52,861 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product (order_id, sku_id, product_name, product_number, product_price, total_price, product_img) values (?, ?, ?, ?, ?, ?, ?) 
+2018-11-22 09:33:52,863 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 23(Long), 304(Long), 4444(String), 1(Integer), 4444.00(BigDecimal), 4444.00(BigDecimal), null
+2018-11-22 09:33:52,863 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:52,864 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_product_property (order_product_id, name, value ) values (?, ?, ? ) 
+2018-11-22 09:33:52,865 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 23(Long), 颜色(String), 黑(String)
+2018-11-22 09:33:52,866 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:52,866 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: update order_info set order_sn = ?, user_id = ?, order_amount = ?, order_status = ?, flow_status = ?, pay_type = ?, pay_status = ?, order_time = ?, phone = ?, consignee = ?, country = ?, province = ?, city = ?, district = ?, address = ?, zipcode = ? where id = ? 
+2018-11-22 09:33:52,868 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065418007297130496(String), 2(Long), 93332.00(BigDecimal), 0(Byte), 0(Byte), 2(Byte), 0(Byte), 2018-11-22 09:33:42.112(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 23(Long)
+2018-11-22 09:33:52,869 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-22 09:33:52,869 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into invoice (invoice_type, invoice_head, user_id, order_id, invoice_content, invoice_phone, invoice_email) values (?, ?, ?, ?, ?, ?, ?) 
+2018-11-22 09:33:52,870 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 2(Byte), 1(Byte), 2(Long), 23(Long), 1(Byte), 13022004622(String), (String)
+2018-11-22 09:33:52,871 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1

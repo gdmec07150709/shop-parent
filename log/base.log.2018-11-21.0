@@ -1,0 +1,880 @@
+2018-11-21 14:18:35,385 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 7372 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:18:35,449 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:18:35,450 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:18:35,357 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 7208 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:18:35,463 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:18:35,464 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:18:54,431 INFO (StartupInfoLogger.java:57)- Started MemberApp in 20.099 seconds (JVM running for 20.882)
+2018-11-21 14:18:55,730 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 22.116 seconds (JVM running for 26.13)
+2018-11-21 14:40:20,484 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 10960 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:40:20,488 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:40:20,489 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:40:24,255 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 10952 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:40:24,266 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:40:24,266 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:40:31,820 INFO (StartupInfoLogger.java:57)- Started MemberApp in 12.437 seconds (JVM running for 13.272)
+2018-11-21 14:40:34,106 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 11.181 seconds (JVM running for 12.119)
+2018-11-21 14:40:55,206 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 8352 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:40:55,211 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:40:55,211 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:41:38,731 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 11068 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:41:38,741 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:41:38,742 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:42:00,070 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 10728 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:42:00,075 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:42:00,075 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:42:19,988 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 8760 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:42:19,993 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:42:19,994 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:42:43,917 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 7352 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:42:43,922 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:42:43,923 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:42:52,006 INFO (StartupInfoLogger.java:57)- Started OrderApp in 8.887 seconds (JVM running for 9.471)
+2018-11-21 14:43:00,350 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 14:43:00,428 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 14:44:04,279 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 9444 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:44:04,283 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:44:04,283 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:44:11,594 INFO (StartupInfoLogger.java:57)- Started OrderApp in 8.285 seconds (JVM running for 8.921)
+2018-11-21 14:44:13,387 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 14:44:13,416 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 14:44:13,825 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 14:44:13,826 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 14:44:13,828 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 14:44:13,850 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:13,851 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 14:44:13,937 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:13,938 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 14:44:13,983 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:13,984 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:13,985 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 14:44:13,986 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:13,987 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:13,988 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:13,989 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 14:44:13,990 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:13,991 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 14:44:13,992 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:13,993 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:13,994 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 14:44:13,995 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:13,995 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:13,996 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:13,997 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 14:44:13,999 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:13,999 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 14:44:14,000 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:14,002 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:14,003 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 14:44:14,004 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:14,005 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:14,006 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:14,007 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 15(BigDecimal)
+2018-11-21 14:44:14,008 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:14,009 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 26(BigDecimal)
+2018-11-21 14:44:14,010 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:14,011 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:14,011 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 27(BigDecimal)
+2018-11-21 14:44:14,014 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:14,015 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:14,016 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:14,017 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 14(BigDecimal)
+2018-11-21 14:44:14,019 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:14,021 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 24(BigDecimal)
+2018-11-21 14:44:14,024 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:14,025 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:14,025 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 25(BigDecimal)
+2018-11-21 14:44:14,026 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:14,027 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:14,028 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 14:44:16,673 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 14:44:16,674 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 14:44:16,675 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 14:44:16,676 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 14:44:16,676 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 5(Integer), 5(Integer)
+2018-11-21 14:44:16,679 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:16,680 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 10(BigDecimal)
+2018-11-21 14:44:16,681 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,681 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 16(BigDecimal)
+2018-11-21 14:44:16,683 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,684 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,685 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 17(BigDecimal)
+2018-11-21 14:44:16,686 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,687 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:16,688 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:16,688 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 9(BigDecimal)
+2018-11-21 14:44:16,690 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,690 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 14(BigDecimal)
+2018-11-21 14:44:16,692 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,693 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,693 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 15(BigDecimal)
+2018-11-21 14:44:16,695 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,695 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:16,696 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:16,696 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 8(BigDecimal)
+2018-11-21 14:44:16,698 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,698 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 12(BigDecimal)
+2018-11-21 14:44:16,699 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,701 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,702 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 13(BigDecimal)
+2018-11-21 14:44:16,703 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,704 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:16,705 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:16,706 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 7(BigDecimal)
+2018-11-21 14:44:16,707 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,708 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 10(BigDecimal)
+2018-11-21 14:44:16,709 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,711 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,712 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 11(BigDecimal)
+2018-11-21 14:44:16,713 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,713 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:16,715 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:16,715 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 6(BigDecimal)
+2018-11-21 14:44:16,717 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,717 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 8(BigDecimal)
+2018-11-21 14:44:16,718 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,720 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:16,721 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 9(BigDecimal)
+2018-11-21 14:44:16,722 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:16,722 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:16,723 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 14:44:17,661 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 14:44:17,662 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 14:44:17,684 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 14:44:17,685 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 14:44:17,686 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 10(Integer), 5(Integer)
+2018-11-21 14:44:17,687 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:17,688 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 5(BigDecimal)
+2018-11-21 14:44:17,689 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:17,690 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 6(BigDecimal)
+2018-11-21 14:44:17,691 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:17,692 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:17,693 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 7(BigDecimal)
+2018-11-21 14:44:17,694 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:17,694 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:17,695 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:17,696 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 4(BigDecimal)
+2018-11-21 14:44:17,697 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:17,697 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 4(BigDecimal)
+2018-11-21 14:44:17,698 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:17,698 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:17,699 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 5(BigDecimal)
+2018-11-21 14:44:17,700 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:17,700 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:17,701 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 2
+2018-11-21 14:44:20,148 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 14:44:20,149 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 14:44:20,151 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 14:44:20,152 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 14:44:20,152 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 14:44:20,153 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:20,154 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 14:44:20,155 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,156 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 14:44:20,158 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,159 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,159 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 14:44:20,160 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,161 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:20,162 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:20,162 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 14:44:20,163 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,164 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 14:44:20,164 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,165 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,165 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 14:44:20,166 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,166 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:20,167 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:20,167 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 14:44:20,168 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,168 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 14:44:20,169 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,170 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,170 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 14:44:20,171 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,171 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:20,173 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:20,174 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 15(BigDecimal)
+2018-11-21 14:44:20,175 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,175 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 26(BigDecimal)
+2018-11-21 14:44:20,176 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,176 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,177 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 27(BigDecimal)
+2018-11-21 14:44:20,178 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,178 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:20,179 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:20,180 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 14(BigDecimal)
+2018-11-21 14:44:20,185 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,186 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 24(BigDecimal)
+2018-11-21 14:44:20,187 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,188 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:20,188 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 25(BigDecimal)
+2018-11-21 14:44:20,190 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:20,190 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:20,191 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 14:44:21,263 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 14:44:21,264 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 18(Long)
+2018-11-21 14:44:21,266 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:44:21,267 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 14:44:21,268 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:21,268 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 14:44:21,269 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:21,270 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:44:21,270 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 14:44:21,271 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:44:21,271 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:44:21,272 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 14:44:21,591 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 14:44:21,624 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-21 14:44:21,792 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-21 14:44:21,802 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 14:44:21,803 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 18(Long)
+2018-11-21 14:44:21,848 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 14:45:17,319 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 14:45:17,320 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 14:45:17,321 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 14:45:17,322 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 14:45:17,324 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 14:45:17,326 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:45:17,326 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 14:45:17,328 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,329 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 14:45:17,330 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,331 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,332 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 14:45:17,334 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,335 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:45:17,336 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:45:17,337 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 14:45:17,340 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,341 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 14:45:17,342 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,343 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,343 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 14:45:17,344 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,345 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:45:17,345 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:45:17,346 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 14:45:17,348 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,348 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 14:45:17,350 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,351 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,352 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 14:45:17,353 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,354 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:45:17,355 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:45:17,356 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 15(BigDecimal)
+2018-11-21 14:45:17,359 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,360 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 26(BigDecimal)
+2018-11-21 14:45:17,361 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,362 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,363 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 27(BigDecimal)
+2018-11-21 14:45:17,364 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,365 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:45:17,365 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 14:45:17,366 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 14(BigDecimal)
+2018-11-21 14:45:17,367 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,368 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 24(BigDecimal)
+2018-11-21 14:45:17,369 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,370 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 14:45:17,371 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 25(BigDecimal)
+2018-11-21 14:45:17,372 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 14:45:17,372 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 14:45:17,373 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 14:46:28,228 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 10348 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:46:28,233 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:46:28,234 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:46:31,789 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 5180 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:46:31,794 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:46:31,794 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:46:39,732 INFO (StartupInfoLogger.java:57)- Started MemberApp in 12.171 seconds (JVM running for 12.944)
+2018-11-21 14:46:45,064 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 14.291 seconds (JVM running for 15.314)
+2018-11-21 14:46:48,624 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 11200 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:46:48,631 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:46:48,632 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:46:57,228 INFO (StartupInfoLogger.java:57)- Started OrderApp in 9.417 seconds (JVM running for 10.443)
+2018-11-21 14:53:30,601 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 2956 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:53:30,610 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:53:30,611 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:53:35,276 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 11616 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 14:53:35,281 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 14:53:35,281 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 14:53:38,941 INFO (StartupInfoLogger.java:57)- Started MemberApp in 8.962 seconds (JVM running for 9.565)
+2018-11-21 14:53:47,826 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 14.392 seconds (JVM running for 15.169)
+2018-11-21 15:30:30,474 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 9720 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 15:30:30,485 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 15:30:30,490 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 15:30:36,032 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 11088 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 15:30:36,036 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 15:30:36,036 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 15:30:47,834 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 18.065 seconds (JVM running for 18.646)
+2018-11-21 15:30:47,920 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 11240 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 15:30:47,925 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 15:30:47,925 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 15:30:48,856 INFO (StartupInfoLogger.java:57)- Started MemberApp in 14.006 seconds (JVM running for 14.807)
+2018-11-21 15:30:57,413 INFO (StartupInfoLogger.java:57)- Started OrderApp in 11.481 seconds (JVM running for 12.408)
+2018-11-21 15:52:02,137 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 8828 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 15:52:02,144 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 15:52:02,144 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 15:52:06,911 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 10984 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 15:52:06,916 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 15:52:06,917 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 15:52:13,381 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 13032 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 15:52:13,387 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 15:52:13,387 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 15:52:16,938 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 15.321 seconds (JVM running for 16.211)
+2018-11-21 15:52:21,786 INFO (StartupInfoLogger.java:57)- Started MemberApp in 15.923 seconds (JVM running for 17.288)
+2018-11-21 15:52:26,318 INFO (StartupInfoLogger.java:57)- Started OrderApp in 14.584 seconds (JVM running for 16.987)
+2018-11-21 16:17:45,822 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(p.id) from product p 
+2018-11-21 16:17:45,842 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 16:17:46,046 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:17:46,047 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select p.id,p.name,p.code,p.market_price,p.base_price, b.id as bid,b.name as bname, c.id as cid,c.name as cname from product p left join brand b on p.brand_id = b.id left join catalog c on p.catalog_id = c.id order by p.id desc limit ?,? 
+2018-11-21 16:17:46,050 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 16:17:46,147 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 16:17:46,760 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, name, code, sort, p_id, is_parent from catalog order by sort 
+2018-11-21 16:17:46,760 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 16:17:46,765 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 13
+2018-11-21 16:17:47,540 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, catalog_id, name, type, sort from sku_property WHERE catalog_id = ? 
+2018-11-21 16:17:47,541 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-21 16:17:47,851 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-21 16:21:12,088 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 7028 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:21:12,093 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:21:12,093 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:21:25,802 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 10104 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:21:25,811 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:21:25,812 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:21:26,744 INFO (StartupInfoLogger.java:57)- Started OrderApp in 15.59 seconds (JVM running for 16.429)
+2018-11-21 16:21:31,705 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 13796 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:21:31,710 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:21:31,711 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:21:38,858 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 16.091 seconds (JVM running for 17.546)
+2018-11-21 16:21:41,929 INFO (StartupInfoLogger.java:57)- Started MemberApp in 11.553 seconds (JVM running for 12.715)
+2018-11-21 16:21:46,655 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 16:21:46,676 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 16:21:46,717 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:21:46,718 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 16:21:46,719 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 16:21:46,722 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:21:46,723 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 16:21:46,726 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,727 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 16:21:46,728 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,729 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,730 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 16:21:46,731 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,732 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:21:46,733 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:21:46,734 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 16:21:46,735 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,736 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 16:21:46,737 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,738 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,739 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 16:21:46,740 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,741 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:21:46,742 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:21:46,742 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:21:46,744 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,745 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:21:46,746 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,747 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,747 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:21:46,748 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,749 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:21:46,750 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:21:46,750 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 15(BigDecimal)
+2018-11-21 16:21:46,751 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,752 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 26(BigDecimal)
+2018-11-21 16:21:46,753 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,754 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,755 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 27(BigDecimal)
+2018-11-21 16:21:46,757 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,758 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:21:46,759 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:21:46,759 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 14(BigDecimal)
+2018-11-21 16:21:46,761 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,762 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 24(BigDecimal)
+2018-11-21 16:21:46,764 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,765 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:46,765 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 25(BigDecimal)
+2018-11-21 16:21:46,766 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:46,767 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:21:46,769 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 16:21:49,823 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:21:49,824 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 18(Long)
+2018-11-21 16:21:49,825 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:21:49,827 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 16:21:49,828 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:49,828 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 16:21:49,829 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:49,830 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:21:49,831 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 16:21:49,832 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:21:49,833 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:21:49,833 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:21:50,180 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 16:21:50,205 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-21 16:21:50,247 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-21 16:21:50,263 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 16:21:50,264 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 18(Long)
+2018-11-21 16:21:50,321 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:22:54,748 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 16:22:54,749 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 16:22:54,751 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:22:54,751 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 16:22:54,752 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 16:22:54,753 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:22:54,753 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 16:22:54,754 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,804 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 16:22:54,805 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,807 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,808 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 16:22:54,809 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,810 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:22:54,810 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:22:54,811 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 16:22:54,812 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,813 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 16:22:54,813 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,815 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,816 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 16:22:54,817 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,818 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:22:54,818 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:22:54,819 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:22:54,819 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,820 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:22:54,822 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,822 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,823 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:22:54,824 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,824 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:22:54,825 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:22:54,825 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 15(BigDecimal)
+2018-11-21 16:22:54,826 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,827 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 26(BigDecimal)
+2018-11-21 16:22:54,828 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,828 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,829 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 27(BigDecimal)
+2018-11-21 16:22:54,829 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,830 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:22:54,830 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:22:54,831 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 14(BigDecimal)
+2018-11-21 16:22:54,831 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,832 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 24(BigDecimal)
+2018-11-21 16:22:54,832 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,833 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:54,834 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 25(BigDecimal)
+2018-11-21 16:22:54,835 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:54,835 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:22:54,836 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 16:22:57,527 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:22:57,528 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 18(Long)
+2018-11-21 16:22:57,529 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:22:57,530 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 16:22:57,531 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:57,532 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 16:22:57,533 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:57,534 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:22:57,534 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 16:22:57,535 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:22:57,536 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:22:57,536 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:22:57,543 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 16:22:57,544 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-21 16:22:57,545 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-21 16:22:57,549 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 16:22:57,549 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 18(Long)
+2018-11-21 16:22:57,551 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:23:53,891 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 16:23:53,892 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 16:23:53,899 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:23:53,900 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 16:23:53,901 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 16:23:53,902 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:53,903 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 16:23:53,904 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,905 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 16:23:53,906 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,907 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,908 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 16:23:53,909 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,909 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:53,911 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:53,912 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 16:23:53,913 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,914 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 16:23:53,915 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,916 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,917 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 16:23:53,918 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,918 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:53,919 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:53,920 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:23:53,921 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,921 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:23:53,922 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,923 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,924 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:23:53,925 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,925 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:53,927 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:53,928 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 15(BigDecimal)
+2018-11-21 16:23:53,929 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,929 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 26(BigDecimal)
+2018-11-21 16:23:53,930 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,931 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,932 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 27(BigDecimal)
+2018-11-21 16:23:53,932 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,933 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:53,934 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:53,934 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 14(BigDecimal)
+2018-11-21 16:23:53,935 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,936 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 24(BigDecimal)
+2018-11-21 16:23:53,936 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,937 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:53,938 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 25(BigDecimal)
+2018-11-21 16:23:53,938 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:53,939 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:53,939 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 16:23:55,345 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:23:55,346 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 17(Long)
+2018-11-21 16:23:55,348 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:55,349 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 16:23:55,350 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:55,351 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 16:23:55,352 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:55,353 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:55,354 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 16:23:55,355 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:55,355 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:55,356 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:23:55,360 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 16:23:55,362 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 37(Long)
+2018-11-21 16:23:55,363 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
+2018-11-21 16:23:55,366 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 16:23:55,367 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 17(Long)
+2018-11-21 16:23:55,368 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:23:58,463 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select count(id) from order_info 
+2018-11-21 16:23:58,464 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 
+2018-11-21 16:23:58,465 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:23:58,466 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id,order_sn,pay_type,order_status,flow_status,pay_status,order_time,consignee,phone,order_amount from order_info order by id desc limit ?,? 
+2018-11-21 16:23:58,466 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 0(Integer), 5(Integer)
+2018-11-21 16:23:58,467 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:58,469 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 18(BigDecimal)
+2018-11-21 16:23:58,471 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,472 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 32(BigDecimal)
+2018-11-21 16:23:58,473 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,474 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,475 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 33(BigDecimal)
+2018-11-21 16:23:58,476 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,477 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:58,478 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:58,479 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 17(BigDecimal)
+2018-11-21 16:23:58,480 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,481 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 30(BigDecimal)
+2018-11-21 16:23:58,483 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,484 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,485 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 31(BigDecimal)
+2018-11-21 16:23:58,487 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,488 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:58,489 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:58,490 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:23:58,491 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,492 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:23:58,494 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,495 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,496 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:23:58,497 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,498 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:58,499 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:58,499 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 15(BigDecimal)
+2018-11-21 16:23:58,500 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,501 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 26(BigDecimal)
+2018-11-21 16:23:58,502 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,504 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,504 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 27(BigDecimal)
+2018-11-21 16:23:58,506 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,507 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:58,508 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:58,509 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 14(BigDecimal)
+2018-11-21 16:23:58,510 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,511 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 24(BigDecimal)
+2018-11-21 16:23:58,512 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,514 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:58,515 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 25(BigDecimal)
+2018-11-21 16:23:58,518 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:58,519 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:58,520 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 5
+2018-11-21 16:23:59,624 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:23:59,625 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:23:59,626 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:23:59,627 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:23:59,628 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:59,629 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:23:59,630 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:59,630 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:23:59,630 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:23:59,631 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:23:59,632 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:23:59,632 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:23:59,636 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 16:23:59,637 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-21 16:23:59,641 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:23:59,648 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 16:23:59,649 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:23:59,650 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:24:06,479 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:24:06,481 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:24:06,482 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:24:06,482 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:24:06,483 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:06,484 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:24:06,484 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:06,485 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:06,485 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:24:06,486 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:06,486 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:24:06,487 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:24:06,488 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: update order_info set order_sn = ?, user_id = ?, order_amount = ?, order_status = ?, flow_status = ?, pay_type = ?, pay_status = ?, order_time = ?, phone = ?, consignee = ?, country = ?, province = ?, city = ?, district = ?, address = ?, zipcode = ? where id = ? 
+2018-11-21 16:24:06,489 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 976374599358873600(String), 1(Long), 33.00(BigDecimal), 1(Byte), 0(Byte), 2(Byte), 0(Byte), 2018-03-21 16:27:00.0(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 16(Long)
+2018-11-21 16:24:06,621 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-21 16:24:06,622 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_action (order_id, action_user, order_status, flow_status, pay_status, action_place, action_note, action_time) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2018-11-21 16:24:06,623 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long), admin(String), 1(Byte), 0(Byte), 0(Byte), 后台(String), (String), 2018-11-21 16:24:06.621(Timestamp)
+2018-11-21 16:24:06,640 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-21 16:24:06,755 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:24:06,756 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:24:06,757 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:24:06,758 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:24:06,759 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:06,759 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:24:06,759 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:06,760 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:06,760 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:24:06,761 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:06,762 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:24:06,762 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:24:06,765 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 16:24:06,766 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-21 16:24:06,769 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:24:06,772 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 16:24:06,773 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:24:06,774 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 2
+2018-11-21 16:24:08,786 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:24:08,787 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:24:08,789 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:24:08,790 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:24:08,791 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:08,791 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:24:08,792 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:08,793 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:08,793 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:24:08,794 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:08,795 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:24:08,796 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:24:08,796 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: update order_info set order_sn = ?, user_id = ?, order_amount = ?, order_status = ?, flow_status = ?, pay_type = ?, pay_status = ?, order_time = ?, phone = ?, consignee = ?, country = ?, province = ?, city = ?, district = ?, address = ?, zipcode = ? where id = ? 
+2018-11-21 16:24:08,798 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 976374599358873600(String), 1(Long), 33.00(BigDecimal), 1(Byte), 1(Byte), 2(Byte), 0(Byte), 2018-03-21 16:27:00.0(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 16(Long)
+2018-11-21 16:24:08,830 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-21 16:24:08,831 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_action (order_id, action_user, order_status, flow_status, pay_status, action_place, action_note, action_time) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2018-11-21 16:24:08,832 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long), admin(String), 1(Byte), 1(Byte), 0(Byte), 后台(String), (String), 2018-11-21 16:24:08.831(Timestamp)
+2018-11-21 16:24:08,832 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-21 16:24:08,874 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:24:08,876 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:24:08,877 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:24:08,877 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:24:08,878 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:08,878 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:24:08,879 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:08,879 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:24:08,880 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:24:08,881 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:24:08,882 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:24:08,882 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:24:08,885 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 16:24:08,886 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-21 16:24:08,888 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:24:08,892 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 16:24:08,893 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:24:08,895 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 3
+2018-11-21 16:36:12,611 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:36:12,612 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:36:12,647 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:36:12,647 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:36:12,648 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:36:12,648 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:36:12,649 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:36:12,650 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:36:12,650 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:36:12,650 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:36:12,651 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:36:12,651 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:36:12,651 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: update order_info set order_sn = ?, user_id = ?, order_amount = ?, order_status = ?, flow_status = ?, pay_type = ?, pay_status = ?, order_time = ?, phone = ?, consignee = ?, country = ?, province = ?, city = ?, district = ?, address = ?, zipcode = ? where id = ? 
+2018-11-21 16:36:12,652 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 976374599358873600(String), 1(Long), 33.00(BigDecimal), 1(Byte), 1(Byte), 2(Byte), 0(Byte), 2018-03-21 16:27:00.0(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 16(Long)
+2018-11-21 16:36:12,653 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-21 16:36:12,654 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_action (order_id, action_user, order_status, flow_status, pay_status, action_place, action_note, action_time) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2018-11-21 16:36:12,655 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long), admin(String), 1(Byte), 1(Byte), 0(Byte), 后台(String), (String), 2018-11-21 16:36:12.653(Timestamp)
+2018-11-21 16:36:12,683 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-21 16:36:12,745 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type from order_info where id = ? 
+2018-11-21 16:36:12,745 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:36:12,747 DEBUG (BaseJdbcLogger.java:181)- ====>  Preparing: select * from order_product where order_id = ? 
+2018-11-21 16:36:12,747 DEBUG (BaseJdbcLogger.java:181)- ====> Parameters: 16(BigDecimal)
+2018-11-21 16:36:12,748 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:36:12,749 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 28(BigDecimal)
+2018-11-21 16:36:12,750 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:36:12,750 DEBUG (BaseJdbcLogger.java:181)- ======>  Preparing: select * from order_product_property where order_product_id = ? 
+2018-11-21 16:36:12,751 DEBUG (BaseJdbcLogger.java:181)- ======> Parameters: 29(BigDecimal)
+2018-11-21 16:36:12,752 DEBUG (BaseJdbcLogger.java:181)- <======      Total: 2
+2018-11-21 16:36:12,752 DEBUG (BaseJdbcLogger.java:181)- <====      Total: 2
+2018-11-21 16:36:12,753 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:36:12,756 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, nick_name, real_name, head_img, id_number, phone, email, sex, birthday, province, city, district, regist_time from user_info where id = ? 
+2018-11-21 16:36:12,758 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-21 16:36:12,761 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 16:36:12,766 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select * from order_action where order_id = ? 
+2018-11-21 16:36:12,767 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 16(Long)
+2018-11-21 16:36:12,768 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 4
+2018-11-21 16:41:09,563 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 12364 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:41:09,572 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:41:09,573 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:41:17,470 INFO (StartupInfoLogger.java:57)- Started MemberApp in 8.661 seconds (JVM running for 9.333)
+2018-11-21 16:42:48,638 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 11128 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:42:48,644 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:42:48,645 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:43:04,034 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 16.275 seconds (JVM running for 17.039)
+2018-11-21 16:43:22,416 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 9388 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:43:22,421 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:43:22,421 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:43:31,774 INFO (StartupInfoLogger.java:57)- Started OrderApp in 10.462 seconds (JVM running for 11.401)
+2018-11-21 16:46:15,805 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 5652 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:46:15,822 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:46:15,824 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:47:07,237 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 13068 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:47:07,243 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:47:07,243 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:47:46,826 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 10664 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:47:46,831 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:47:46,832 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:48:23,179 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 8340 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:48:23,187 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:48:23,188 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:48:31,205 INFO (StartupInfoLogger.java:57)- Started OrderApp in 8.702 seconds (JVM running for 9.277)
+2018-11-21 16:55:06,635 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 10500 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:55:06,641 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:55:06,641 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:55:18,415 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 12604 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:55:18,423 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:55:18,425 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:55:19,144 INFO (StartupInfoLogger.java:57)- Started OrderApp in 13.357 seconds (JVM running for 14.153)
+2018-11-21 16:55:25,253 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 7616 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:55:25,258 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:55:25,259 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:55:27,576 INFO (StartupInfoLogger.java:57)- Started MemberApp in 10.946 seconds (JVM running for 11.957)
+2018-11-21 16:55:34,968 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 11.805 seconds (JVM running for 12.932)
+2018-11-21 16:56:44,336 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 14908 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:56:44,343 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:56:44,344 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:57:02,663 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 14304 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 16:57:02,668 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 16:57:02,669 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 16:57:11,342 INFO (StartupInfoLogger.java:57)- Started OrderApp in 9.954 seconds (JVM running for 10.602)
+2018-11-21 17:06:20,444 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 10284 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 17:06:20,483 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 17:06:20,483 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 17:06:42,821 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 13092 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 17:06:42,827 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 17:06:42,830 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 17:06:52,287 INFO (StartupInfoLogger.java:57)- Started OrderApp in 10.726 seconds (JVM running for 11.443)
+2018-11-21 17:08:25,162 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 12812 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 17:08:25,168 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 17:08:25,169 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 17:08:33,892 INFO (StartupInfoLogger.java:57)- Started OrderApp in 9.69 seconds (JVM running for 10.548)
+2018-11-21 17:14:55,326 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 6816 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 17:14:55,332 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 17:14:55,332 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 17:15:02,657 INFO (StartupInfoLogger.java:57)- Started MemberApp in 8.257 seconds (JVM running for 9.06)
+2018-11-21 17:15:43,176 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 14836 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 17:15:43,182 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 17:15:43,183 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 17:15:52,150 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 10.014 seconds (JVM running for 10.796)
+2018-11-21 17:15:57,316 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 14752 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 17:15:57,322 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 17:15:57,323 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 17:16:07,024 INFO (StartupInfoLogger.java:57)- Started OrderApp in 10.713 seconds (JVM running for 11.701)
+2018-11-21 18:43:43,721 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 15304 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:43:43,727 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:43:43,727 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:43:54,505 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 11816 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:43:54,511 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:43:54,512 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:44:04,763 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 12268 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:44:04,769 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:44:04,770 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:44:51,036 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 9200 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:44:51,044 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:44:51,044 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:44:54,573 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 7824 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:44:54,580 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:44:54,581 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:45:09,127 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 10140 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:45:09,132 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:45:09,132 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:46:10,962 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 14544 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:46:10,968 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:46:10,969 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:46:14,886 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 8860 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:46:14,893 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:46:14,896 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:46:23,399 INFO (StartupInfoLogger.java:57)- Started MemberApp in 13.31 seconds (JVM running for 14.028)
+2018-11-21 18:46:26,642 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 12.951 seconds (JVM running for 14.0)
+2018-11-21 18:46:29,682 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 15320 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:46:29,689 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:46:29,690 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:46:39,099 INFO (StartupInfoLogger.java:57)- Started OrderApp in 10.392 seconds (JVM running for 11.118)
+2018-11-21 18:50:49,831 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 16724 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:50:49,837 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:50:49,837 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:51:01,992 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 10864 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:51:01,997 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:51:01,997 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:51:03,723 INFO (StartupInfoLogger.java:57)- Started OrderApp in 14.78 seconds (JVM running for 15.454)
+2018-11-21 18:51:09,140 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 7364 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:51:09,151 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:51:09,152 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:51:18,433 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 10.983 seconds (JVM running for 11.99)
+2018-11-21 18:51:34,571 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 16388 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:51:34,577 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:51:34,577 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:51:42,692 INFO (StartupInfoLogger.java:57)- Started MemberApp in 8.858 seconds (JVM running for 9.489)
+2018-11-21 18:51:55,474 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 9912 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:51:55,478 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:51:55,478 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:52:03,683 INFO (StartupInfoLogger.java:57)- Started OrderApp in 9.372 seconds (JVM running for 10.153)
+2018-11-21 18:52:40,880 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 8052 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:52:40,887 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:52:40,891 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:52:52,406 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 16472 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:52:52,412 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:52:52,413 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:52:54,059 INFO (StartupInfoLogger.java:57)- Started OrderApp in 13.987 seconds (JVM running for 14.731)
+2018-11-21 18:53:01,369 INFO (StartupInfoLogger.java:48)- Starting GoodsApp on PEAZVQMPFRZP3QH with PID 3392 (D:\ideaProject\shop-parent\shop-goods-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:53:01,376 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:53:01,376 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:53:09,937 INFO (StartupInfoLogger.java:57)- Started GoodsApp in 9.499 seconds (JVM running for 11.23)
+2018-11-21 18:53:49,778 INFO (StartupInfoLogger.java:48)- Starting MemberApp on PEAZVQMPFRZP3QH with PID 6380 (D:\ideaProject\shop-parent\shop-member-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:53:49,784 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:53:49,788 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:53:57,128 INFO (StartupInfoLogger.java:57)- Started MemberApp in 8.11 seconds (JVM running for 8.741)
+2018-11-21 18:54:12,776 INFO (StartupInfoLogger.java:48)- Starting OrderApp on PEAZVQMPFRZP3QH with PID 16432 (D:\ideaProject\shop-parent\shop-order-server\target\classes started by Administrator in D:\ideaProject\shop-parent)
+2018-11-21 18:54:12,785 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-11-21 18:54:12,785 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2018-11-21 18:54:21,148 INFO (StartupInfoLogger.java:57)- Started OrderApp in 9.267 seconds (JVM running for 9.973)
+2018-11-21 18:54:26,397 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, user_id, consignee, phone, country, province, city, district, address, zipcode, status from user_address where id = ? 
+2018-11-21 18:54:26,437 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1(Long)
+2018-11-21 18:54:26,717 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 1
+2018-11-21 18:54:26,780 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: insert into order_info (order_sn, user_id, order_amount, order_status, flow_status, pay_status, order_time, phone, consignee, country, province, city, district, address, zipcode,pay_type ) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2018-11-21 18:54:26,809 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 1065196731991326720(String), 2(Long), 0(BigDecimal), 0(Byte), 0(Byte), 0(Byte), 2018-11-21 18:54:26.748(Timestamp), 13022004699(String), 罗海鹏(String), 中国(String), 广东省(String), 广州市(String), 天河区(String), 大地工业区D栋603(String), 610000(String), 2(Byte)
+2018-11-21 18:54:26,925 DEBUG (BaseJdbcLogger.java:181)- <==    Updates: 1
+2018-11-21 18:54:27,317 DEBUG (BaseJdbcLogger.java:181)- ==>  Preparing: select id, product_id, code, price from product_sku where id = ? 
+2018-11-21 18:54:27,343 DEBUG (BaseJdbcLogger.java:181)- ==> Parameters: 98(Long)
+2018-11-21 18:54:27,411 DEBUG (BaseJdbcLogger.java:181)- <==      Total: 0
